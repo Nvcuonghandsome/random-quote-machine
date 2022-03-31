@@ -1,0 +1,65 @@
+
+#quote-box {
+  background-color: #fff;
+  width: 450px;
+  padding: 40px 50px;
+  border-radius: 3px;
+}
+
+#quote-box #text {
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-align: center;
+  /* position: relative will make icon quote-left go up the same line with the text */
+  position: relative;
+
+}
+
+#quote-box #text i {
+  margin-right: 5px;
+  font-size: 2rem;
+}
+
+#quote-box #author {
+  font-size: 1rem;
+  text-align: right;
+}
+
+#quote-box footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+}
+
+#quote-box footer i {
+  font-size: 2.8rem;
+  height: 40px;
+}
+
+#quote-box footer a:nth-child(1) {
+  margin-right: 5px;
+}
+
+#quote-box footer button {
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+#credit {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#credit > a {
+  margin-left: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#credit > span {
+  color: #fff;
+}
